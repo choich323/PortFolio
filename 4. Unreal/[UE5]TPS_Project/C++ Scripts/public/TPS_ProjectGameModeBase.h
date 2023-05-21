@@ -4,14 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ShootingCPPGameModeBase.generated.h"
+#include "TPS_ProjectGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class SHOOTINGCPP_API AShootingCPPGameModeBase : public AGameModeBase
+class TPS_PROJECT_API ATPS_ProjectGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	ATPS_ProjectGameModeBase();
 };
