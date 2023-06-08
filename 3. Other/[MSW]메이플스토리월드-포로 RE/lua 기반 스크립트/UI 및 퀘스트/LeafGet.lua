@@ -13,9 +13,10 @@ LeafGet{
             else
                 local option = {["Color"] = Color(1,0,1,1)}	
                 self.particleID = _ParticleService:PlayBasicParticle(
-                    BasicParticleType.Nova, self.Entity, 
-                    self.Entity.TransformComponent.Position, 0, 
-                    Vector3(0.3,0.3,0.3), true,option)
+                    BasicParticleType.Nova, 
+                    self.Entity, 
+                    self.Entity.TransformComponent.Position + Vector3(0.2, 0.2, 0), 
+                    0, Vector3(0.3,0.3,0.3), true,option)
             end
         }
 
